@@ -15,6 +15,18 @@ function ShowBanner() {
         </div>
       </div>
     </div> 
+    
+//     let menuRef = useRef();
+
+	///////// click outside close dropdown menu
+// 	useEffect(() => {
+// 		document.addEventListener("mousedown", (event) => {
+// 			if (menuRef.current && !menuRef.current.contains(event.target)) {
+// 				setTopDropdown("");
+// 				// setNotifi("");
+// 			}
+// 		});
+// 	});
     </Fragment>
   );
 }
